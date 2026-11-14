@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mywebdev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght,GRAD@0,17..18,400..700,-50..200;1,17..18,400..700,-50..200&display=swap" rel="stylesheet">
+</head>
+<body class="app-container">
+    <nav class="navbar">
+        <img class="logo" src="./image/imageye___-_imgi_1_lockup.png" alt="logo">
+        <div class="info-bar">
+            <ul>
+                <li><a href="">Resources</a></li>
+                <li><a href="">Discover</a></li>
+                <li><a href="">Baseline</a></li>
+                <li><a href="">How to use Baseline</a></li>
+                <li><a href="">More</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input class="input" type="search" placeholder="search" type="">
+                <svg class="svg1" xmlns="http://www.w3.org/2000/svg" width="1.25em" height="1.25em" viewBox="0 0 32 32">
+                    <path fill="currentColor" d="M6.368 6.368a11.48 11.48 0 0 1 9.585-3.274L15 3.42a2.2 2.2 0 0 0-.92.59a10.46 10.46 0 0 0-7.005 3.065c-4.1 4.1-4.1 10.75 0 14.85s10.75 4.1 14.85 0a10.45 10.45 0 0 0 2.794-5.018q.112.116.241.213c.201.14.427.239.664.292a11.44 11.44 0 0 1-2.648 4.858l6.876 6.877a.5.5 0 0 1-.707.707l-6.876-6.877c-4.512 4.14-11.528 4.027-15.9-.345c-4.492-4.491-4.492-11.773 0-16.264M25.982 10a.36.36 0 0 1 .342.242l.298.918a1.9 1.9 0 0 0 1.2 1.197l.917.3l.019.003a.363.363 0 0 1 0 .684l-.918.299a1.9 1.9 0 0 0-1.2 1.197l-.298.918a.362.362 0 0 1-.684 0l-.299-.918a1.9 1.9 0 0 0-1.198-1.202l-.919-.298a.364.364 0 0 1-.175-.552a.36.36 0 0 1 .175-.132l.92-.299a1.9 1.9 0 0 0 1.179-1.197l.299-.918a.36.36 0 0 1 .34-.242M20.466 0a.665.665 0 0 1 .627.443l.547 1.683a3.47 3.47 0 0 0 2.198 2.196l1.684.547l.034.008a.666.666 0 0 1 0 1.254l-1.685.547a3.47 3.47 0 0 0-2.197 2.196l-.548 1.683l-.016.04a.666.666 0 0 1-1.238-.04l-.548-1.683a3.47 3.47 0 0 0-2.197-2.204l-1.684-.547A.67.67 0 0 1 15 5.496a.665.665 0 0 1 .444-.627l1.684-.547a3.47 3.47 0 0 0 2.15-2.154l.56-1.725a.665.665 0 0 1 .63-.443" />
+                </svg>
+                <img class="slash" src="./image/tabler--slash.png" alt="slash">
+        </div>
+        <div class="theme-wrapper">
+            <select id="themeSelect" class="theme-select">
+                <option value="light">Light theme</option>
+                <option value="dark">Dark theme</option>
+                <option value="default">System default</option>
+            </select>
+        </div>
+    </nav>
+
+    <header>
+        <section>
+            <div class="section1">
+                Guidance to build modern web experiences that work on any browser.
+            </div>
+            <div class="section2">
+                <strong>Modern Web Guidance is now stable!</strong> Upgrade your coding agents with expert-vetted web development best practices. <a class="announcement" href="">Read the announcement</a>.
+            </div>
+            <div class="intro">
+                <div class="intro-info">
+                <h3>
+                    Building a better web, together
+                </h3>
+                <p>
+                    We want to help you build beautiful, accessible, fast, and secure websites that work cross-browser, and for all of your users. This site is our home for content to help you on that journey, written by members of the Chrome team, and external experts who specialize in web development topics such as accessibility, performance, design, and more.
+                </p>
+                </div>
+                <img class="img1" src="./image/imageye___-_imgi_2_home-blue.png" alt="image1">
+            </div>
+        </section>
+        <section>
+            <div class="section3">
+                <div class="learn-more">
+                    <img src="./image/imageye___-_imgi_3_ai-feature.png" alt="Web">
+                    <a href="">
+                        AI and the web
+                    </a>
+                    <p>
+                        Discover resources created to help you understand and build performant, web-first experiences with AI.
+                    </p>
+                    <button>
+                        <a href="">
+                            Learn more
+                        </a>
+                    </button>
+                </div>
+                <div class="learn-more">
+                    <img src="./image/imageye___-_imgi_4_inp-icon-only.png" alt="">
+                    <a href="">
+                        Optimize INP
+                    </a>
+                    <p>
+                        Interaction to Next Paint (INP) is now a Core Web Vital metric. Start measuring and optimizing your site's INP.
+                    </p>
+                    <button>
+                        <a href="">
+                            Learn more
+                        </a>
+                    </button>
+                </div>
+                <div class="learn-more">
+                    <img src="./image/imageye___-_imgi_5_hero-identity.png" alt="">
+                    <a href="">
+                        Payments & Identity
+                    </a>
+                    <p>
+                        Read up on the latest features and best practices when it comes to identity and payment processing.
+                    </p>
+                    <button>
+                        <a href="">
+                            Learn more
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="section4">
+            <div class="explore-sec">
+                <div class="explore">
+                    <h2>
+                        Explore the web platform
+                    </h2>
+                    <button>
+                        <a href="">
+                            Start exploring
+                        </a>
+                    </button>
+                </div>
+
+                <p>
+                    The web platform is a constantly evolving ecosystem of browser features and APIs for developers to make <br> websites that are easy and delightful to use. These pages are pathways for you to dive into each part of the web <br> platform on web.dev—at your pace.
+                </p>
+            </div>
+            
+            <div class="coding">
+                <div class="code-lang">
+                <div class="code-img">
+                    <a href="">
+                        <svg class="lang-img" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#0288d1" d="M5 21h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2m3-7l2.363 2.363L14 11l5 7H5z" />
+                        </svg>
+                    </a> 
+                </div>
+                <center>
+                    <a href="">
+                        HTML
+                    </a>                
+                <p>
+                    HTML is the document layer of the web, providing structure and semantics for pages.
+                </p>                
+                <button class="code-btn">
+                        <a href="">
+                            Learn more
+                        </a>
+                </button>
+                </center>
+            </div>
+            
+            <div class="code-lang">
+                <div class="code-img">
+                    <a href="">
+                        <svg class="lang-img" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#0288d1" d="M5 21h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2m3-7l2.363 2.363L14 11l5 7H5z" />
+                        </svg>
+                    </a> 
+                </div>
+                <center>
+                <a href="">
+                    CSS
+                </a>
+                <p>
+                    CSS is the presentation layer of the web, and allows you to make your web pages look exactly like you imagine.
+                </p>
+                
+                <button class="code-btn">
+                        <a href="">
+                            Learn more
+                        </a>
+                </button>
+                </center>
+            </div>    
+
+            <div class="code-lang">
+                <div class="code-img">
+                    <a href="">
+                        <svg class="lang-img" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#0288d1" d="M5 21h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2m3-7l2.363 2.363L14 11l5 7H5z" />
+                        </svg>
+                    </a> 
+                </div>
+                <center>
+                <a href="">
+                    JavaScript
+                </a>
+                <p>
+                    JavaScript adds rich interactivity to web pages, so you can build websites that help users to perform tasks and accomplish goals.
+                </p>
+                
+                <button class="code-btn">
+                        <a href="">
+                            Learn more
+                        </a>
+                </button>
+                </center>
+            </div>    
+            </div>
+        </section>
+
+
+        <section class="section5">
+            <div class="explore-sec">
+                <div class="explore">
+                    <h2>
+                        Learn the web platform
+                    </h2>
+                    <button>
+                        <a href="">
+                            Start learning
+                        </a>
+                    </button>
+                </div>
+
+                <p>
+                    New to the web platform? We've got you covered! Dive into each layer, with courses curated specifically for <br> beginners to HTML, CSS, and JavaScript.
+                </p>
+            </div>
+            
+            <div class="coding2">
+                <div class="code-lang2">
+                <img src="./image/imageye___-_imgi_6_card.png" alt="">
+
+                <h4>
+                    Course
+                </h4>
+                <center>
+                    <a class="learn" href="">
+                        Learn HTML
+                    </a>
+                
+                <p>
+                    A solid overview of HTML for developers, from novice to expert level HTML.
+                </p>
+                
+                <button class="code-btn">
+                        <a href="">
+                            Start course
+                        </a>
+                </button>
+                </center>
+            </div>
+            
+            <div class="code-lang2">
+                <img src="./image/imageye___-_imgi_7_card.png" alt="css">
+                <h4>
+                    Course
+                </h4>
+                <center>
+                <a class="learn" href="">
+                    Learn CSS
+                </a>
+                <p>
+                    A guide to CSS with modules covering everything from accessibility to z-index.
+                </p>
+                
+                <button class="code-btn">
+                        <a href="">
+                            Start course
+                        </a>
+                </button>
+                </center>
+            </div>    
+
+            <div class="code-lang2">
+                <img src="./image/imageye___-_imgi_8_card.png" alt="">
+                <h4>
+                    Course
+                </h4>
+                <center>
+                <a class="learn" href="">
+                    Learn JavaScript
+                </a>
+                <p>
+                    An in-depth course on the basics of JavaScript.
+                </p>
+                
+                <button class="code-btn">
+                        <a href="">
+                            Start course
+                        </a>
+                </button>
+                </center>
+            </div>    
+            </div>
+        </section>
+    </header>
+
+    <article class="article">
+        <h3>
+            Keep up on web development news
+        </h3>
+        <div class="blog">
+            <div class="read-blog">
+                <p>
+                    Read our blog to learn the latest news in web development, including new web platform features, updates to Baseline, AI, Core Web Vitals, and more.
+                </p>
+                <center>
+                    <button>
+                        <a href="">
+                            Read the blog
+                        </a>
+                    </button>
+                </center>               
+            </div>
+            <img src="./image/article.png" alt="">
+        </div>
+    </article>
+
+    <article class="added-article">
+        <div class="content">
+            <div class="content1">
+                <h2>
+                    Baseline
+                </h2>
+                <p>
+                    Get up to speed with the latest updates and news on <a class="baseline" href="">Baseline</a>.
+                </p>
+                <button>
+                        <a href="">
+                            More on Baseline
+                        </a>
+                </button>        
+            </div>
+
+            <div class="content2">
+                <a href="">August 2026 Baseline monthly digest</a>
+                <p>
+                    Read about various happenings with Baseline during August 2026.
+                </p>
+                <a href="">Submit your proposals for Interop 2027</a>
+                <p>
+                    It's time to let us know which web platform features should be part of Interop 2027.
+                </p>
+            </div>
+                
+            <div class="content2">
+                <a href="">
+                    Find features to support for Interop <br> 2027 with your coding agent
+                </a>
+                <p style="margin-bottom: 23px;">
+                    Learn how you can use your coding agent to find Interop 2027 proposals to upvote, or find features to propose.
+                </p>
+                <a href="">
+                    July 2026 Baseline monthly digest
+                </a>
+                <p>
+                    Read about various happenings with Baseline during July 2026.
+                </p>
+            </div>
+        </div>
+    </article>
+
+    <article class="added-article1">
+        <div class="content">
+            <div class="content1">
+                <h2>
+                    CSS and UI design
+                </h2>
+                <p>
+                    Learn the latest tips and techniques to use in your work, right now.
+                </p>
+                <button>
+                        <a href="">
+                            Explore CSS
+                        </a>
+                </button>        
+            </div>
+
+            <div class="content2">
+                <a href="">Adapting typography to user preference using CSS</a>
+                <p style="margin-bottom: 50px;">
+                    Adapt a font to your users' preferences, so they're maximally comfortable reading your content.
+                </p>
+                <a href="">What are source maps?</a>
+                <p>
+                    Improve web debugging experience with source maps.
+                </p>
+            </div>
+                
+            <div class="content2">
+                <a href="">
+                    New CSS color spaces and functions in all major engines
+                </a>
+                <p style="margin-bottom: 23px;">
+                    All major engines now support the new CSS color spaces and functions. Find out how they can bring vibrancy to your designs.
+                </p>
+                <a href="">
+                    CSS subgrid
+                </a>
+                <p>
+                    Subgrid is now interoperable across all three major engines. Find out how to use it.
+                </p>
+            </div>
+        </div>
+    </article>
+
+    <article class="added-article2">
+        <div class="content">
+            <div class="content1">
+                <h2>
+                    Core Web Vitals
+                </h2>
+                <p>
+                    Build faster websites and apps by understanding Core Web Vitals and other metrics.
+                </p>
+                <button>
+                        <a href="">
+                            Explore Core Web Vitals
+                        </a>
+                </button>        
+            </div>
+
+            <div class="content2">
+                <a href="">The most effective ways to improve Core Web Vitals</a>
+                <p style="margin-bottom: 25px;">
+                    A collection of best practices for optimizing websites' Core Web Vitals performance based on the state of the web.
+                </p>
+                <a href="">Common misconceptions about how to optimize LCP</a>
+                <p>
+                    Explore common misconceptions about optimizing Largest Contentful Paint by looking beyond image optimization and considering factors like Time to First Byte and resource load delay.
+                </p>
+            </div>
+                
+            <div class="content2">
+                <a href="">
+                    How to optimize INP
+                </a>
+                <p style="margin-bottom: 75px;">
+                    Learn how to optimize for the Interaction to Next Paint metric.
+                </p>
+                <a href="">
+                    Best practices for measuring Web Vitals in the field
+                </a>
+                <p>
+                    Guidance for collecting and reporting Web Vitals quickly and reliably.
+                </p>
+            </div>
+        </div>
+    </article>
+
+    <article class="added-article3">
+        <div class="content">
+            <div class="content1">
+                <h2>
+                    Progressive Web Apps
+                </h2>
+                <p>
+                    Create capable web experiences.
+                </p>
+                <button>
+                        <a href="">
+                            More on PWA
+                        </a>
+                </button>        
+            </div>
+
+            <div class="content2">
+                <a href="">Learn PWA</a>
+                <p style="margin-bottom: 73px;">
+                    A course that breaks down every aspect of modern progressive web app development.
+                </p>
+                <a href="">New patterns for amazing apps</a>
+                <p>
+                    Dive into a fantastic collection of new patterns for amazing apps, including clipboard patterns, file patterns, and advanced app patterns.
+                </p>
+            </div>
+                
+            <div class="content2">
+                <a href="">
+                    TransformStream is now supported cross browser.
+                </a>
+                <p style="margin-bottom: 15px;">
+                    Now that transform streams are supported in Safari, Firefox, and Chrome they are finally ready for prime time.
+                </p>
+                <a href="">
+                    Project Fugu API showcase
+                </a>
+                <p>
+                    On the Chrome Developers site, explore capabilities APIs.
+                </p>
+            </div>
+        </div>
+    </article>
+
+    <article class="added-article4">
+        <div class="content">
+            <div class="content1">
+                <h2>
+                    Accessible for all
+                </h2>
+                <p>
+                    Learn how to make your sites more accessible for people with disabilities, whether permanent, temporary, or situational.
+                </p>
+                <button>
+                        <a href="">
+                            More on accessibility
+                        </a>
+                </button>        
+            </div>
+
+            <div class="content2">
+                <a href="">Learn Accessibility</a>
+                <p style="margin-bottom: 18px;">
+                    Our new course is a great entry point and reference for accessibility topics.
+                </p>
+                <a href="">Building the main navigation for a website</a>
+                <p>
+                    This tutorial describes how to build an accessible main navigation of a website. You learn about semantic HTML, accessibility, and how using ARIA attributes can sometimes do more harm than good.
+                </p>
+            </div>
+                
+            <div class="content2">
+                <a href="">
+                    Testing web design color contrast
+                </a>
+                <p style="margin-bottom: 15px;">
+                    An overview of three tools and techniques for testing and verifying accessible color contrast of your design.
+                </p>
+                <a href="">
+                    Community highlight: Melanie Sumner
+                </a>
+                <p>
+                    Read our interview with Melanie, a software engineer who specializes in digital accessibility.
+                </p>
+            </div>
+        </div>
+    </article>
+
+    <article class="added-article5">
+        <div class="content">
+            <div class="content1">
+                <h2>
+                    Payments and identity
+                </h2>
+                <p>
+                    Find the latest techniques and best practices for payments and helping users safely log into your sites and apps.
+                </p>
+                <button>
+                        <a href="">
+                            More on identity
+                        </a>
+                </button>        
+            </div>
+
+            <div class="content2">
+                <a href="">Create a passkey for passwordless logins</a>
+                <p style="margin-bottom: 18px;">
+                    Passkeys make user accounts safer, simpler, easier to use.
+                </p>
+                <a href="">Web payments overview</a>
+                <p>
+                    Learn more about Web Payments and how they work.
+                </p>
+            </div>
+                
+            <div class="content2">
+                <a href="">
+                    Sign in with a passkey
+                </a>
+                <p style="margin-bottom: 15px;">
+                    Create a sign in experience that uses passkeys while still accommodating existing password users.
+                </p>
+                <a href="">
+                    Payment and address form best practices
+                </a>
+                <p>
+                    Maximize conversions by helping your users complete address and payment forms as quickly and easily as possible.
+                </p>
+            </div>
+        </div>
+    </article>
+    <hr>
+    <footer class="foot-note">
+        <h1>
+            Developer Newsletter
+        </h1>
+        <h2>
+            Get the latest news, techniques and updates straight to your inbox.
+        </h2>
+        <form class="form">
+            <div class="first-last">
+                <div>
+                    <dl>
+                        <dt>
+                            <label class="label" for="First Name">First Name</label>
+                        </dt>
+                        <dd>
+                            <input class="input" type="name" placeholder="First Name">
+                        </dd>
+                    </dl>
+                </div>
+
+                <div>
+                    <dt>
+                        <label class="label" for="Last Name">Last Name</label>
+                    </dt>
+                    <dd>
+                        <input class="input" type="name" placeholder="Last Name">
+                    </dd>
+                </div>
+            </div>
+
+            <div class="email">
+                <dt>
+                    <label class="label" for="Email">Your email</label>
+                </dt>
+                <dd>
+                    <input class="input" type="email" placeholder="Your Email">
+                </dd>
+            </div>
+
+            <div class="country">
+                <dt>
+                    <label class="label" for="Country">Country</label>
+                </dt>
+                <dd>
+                    <select class="country" name="Country">
+                        <option value=""></option>
+                        <option value="">Nigeria</option>
+                        <option value="">South Africa </option>
+                        <option value="">England</option>
+                        <option value="">Egypt</option>
+                        <option value="">Turkey</option>
+                        <option value="">Russia</option>
+                        <option value="">London</option>
+                        <option value="">Niger</option>
+                        <option value="">Israel</option>
+                    </select>
+                </dd>
+            </div>            
+        </form>
+        <p class="no-spam">
+            Don't worry, no spam here! Your information will only be used for web.dev and Chrome <br> related updates and our emails are typically no more than 1-2 times a month. You can <br> unsubscribe anytime.
+        </p>
+        <input class="option1" type="checkbox">Add me to the web.dev mailing list 
+        <br>
+        <input class="option2" type="checkbox">I accept Google's Terms and Conditions and acknowledge that my information will be
+        <p class="spill">used in accordance with Google's Privacy Policy.</p>
+    </footer>
+</body>
+</html>
