@@ -205,7 +205,6 @@
 
 .section3{
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     margin-top: 70px;
     margin-bottom: 25px;
