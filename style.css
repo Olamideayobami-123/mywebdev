@@ -285,8 +285,6 @@
 
 .explore{
     display: flex;
-    flex-wrap: wrap;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -334,7 +332,6 @@
 
 .coding{
     display: flex;
-    flex-wrap: wrap;
     padding: 0 50px;
     flex-wrap: wrap;
 }
@@ -411,7 +408,6 @@
 
 .coding2{
     display: flex;
-    flex-wrap: wrap;
     padding: 0 50px;
     flex-wrap: wrap;
 }
@@ -506,7 +502,6 @@
 
 .blog{
     display: flex;
-    flex-wrap: wrap;
     align-items:center;
 }
 
@@ -560,7 +555,6 @@
 
 .content{
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     gap: 20px;
     align-items: stretch;    
@@ -734,7 +728,6 @@
 
 .first-last{
     display: flex;
-    flex-wrap: wrap;
     gap: 15px;
     justify-content: center;
     margin-bottom: 20px;
