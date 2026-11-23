@@ -333,7 +333,7 @@
 .coding{
     display: flex;
     padding: 0 50px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .code-lang{
@@ -409,7 +409,7 @@
 .coding2{
     display: flex;
     padding: 0 50px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .code-lang2{
@@ -558,7 +558,7 @@
     align-items: center;
     gap: 20px;
     align-items: stretch;    
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .content1{
