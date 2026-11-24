@@ -1143,7 +1143,12 @@ img, video, iframe {
         display: none;
     }
     .theme-wrapper{
-        margin-left: -150px;
+        margin-left: -230px;
+        width: 140px;
+    }
+    .logo{
+        width: 100px;
+        height: 40px;
     }
     .intro{
         margin: 30px;
@@ -1157,8 +1162,8 @@ img, video, iframe {
     .img1{
         padding-top: 60px;
         margin: 10px;
-        height: 600px;
-        max-width: 500px;
+        height: 300px;
+        max-width: 200px;
     }
     .intro-info h3{
         width: 350px;
@@ -1195,8 +1200,7 @@ img, video, iframe {
     }
     
     .ai{
-        margin: -20px -300px;
-
+        margin: -20px -250px;
     }
     
     .coding, .coding2{
